@@ -61,7 +61,3 @@ fn print_camera_position(query: Query<&MousePosition2d>) {
     println!("{}", mouse_position.world_pos);
 }
 ```
-
-# Limitations
-
-`MousePosition2d` must be attached to a single `Camera` in the world, otherwise the plugin panics.
